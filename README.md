@@ -60,8 +60,9 @@ blog-using-php-mysql/
 
 - More features like post deletion, editing existing post and more will be addded soon.
 
-## Screenshots
+![Screenshot (556)](https://github.com/Aaditiiipatil/Website/assets/143029253/7deea20e-4fe3-48e8-a50b-3d350a65ddba)
+![Screenshot (557)](https://github.com/Aaditiiipatil/Website/assets/143029253/41416c1d-358e-4674-b082-d0a5c276a9e1)
+![Screenshot (558)](https://github.com/Aaditiiipatil/Website/assets/143029253/adea7073-521d-46b9-859d-8f1b5515af4b)
 
-![blog-using-php-mysql](https://raw.githubusercontent.com/kshitizrohilla/blog-using-php-mysql/main/media/screenshot1.jpg)
-![blog-using-php-mysql](https://raw.githubusercontent.com/kshitizrohilla/blog-using-php-mysql/main/media/screenshot2.jpg)
-![blog-using-php-mysql](https://raw.githubusercontent.com/kshitizrohilla/blog-using-php-mysql/main/media/screenshot3.jpg)
+
+
