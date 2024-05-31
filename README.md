@@ -1,33 +1,35 @@
-# A Simple Blog Using PHP And MySQL
+### Bloggers Space
 
-This simple blog application provides a user-friendly platform for bloggers to publish their posts online. It is built using PHP on the server-side and uses MySQL for storing blog posts. The application allows bloggers to write blog posts, add images and publish them on the blog.
+This is a simple blog post application built with PHP and MySQL. The application allows users to create, read, update, and delete blog posts. Each post includes a title, content, and an optional image. This README provides extensive information about the setup, data structure, and usage of the application.
 
-This application can be used as a starting point for developers who want to build a blog application using PHP and MySQL. 
+## Features
 
-	
-## Setup
+- Create, read, update, and delete blog posts
+- Upload images for each blog post
+- Display a list of all blog posts
+- View individual blog post details
 
-- Start the Apache and MySQL server from the XAMPP control panel.
+## Prerequisites
 
-- Extract the downloaded git project folder in the htdocs folder(present in the XAMPP folder). Generally during installation the XAMPP is installed in the C: Drive of your computer.
-
-- A common file structure might looks like this:
+- PHP >= 7.4
+- MySQL >= 5.7
+- Web server (e.g., Apache, Nginx)
+- Composer (for dependency management)
 
 ```
-C:
-|----XAMPP
-     |----htdocs
-          |----blog-using-php-mysql-main
-               |----styles
-                    |----style.css
-               |----media
-               |----images
-               |----scripts
-                    |----script.js
-               |----blog_post_process.php
-               |----index.html
-               |----index.php
-               |----README.md
+blog-using-php-mysql/
+│
+├── images/                    # Directory for uploaded images
+├── css/                       # Directory for CSS files
+│   └── styles.css             # Main stylesheet
+├── db_config.php              # Database configuration file
+├── index.php                  # Home page displaying all blog posts
+├── create_post.php            # Page for creating a new blog post
+├── blog_post_process.php      # Script for processing new blog posts
+├── view_post.php              # Page for viewing a single blog post
+├── edit_post.php              # Page for editing a blog post
+└── delete_post.php            # Script for deleting a blog post
+
 ```
 
 - To create client's database go to: <http://localhost/phpmyadmin>
@@ -44,7 +46,7 @@ C:
 
 - The next column will be of 'Post Paragraph' which we'll make a text type field.
 
-- After creating the database table you may test it by visiting this link in your browser: <http://localhost/blog-using-php-mysql-main/>
+- After creating the database table you may test it by visiting this link in your browser: <http://localhost/bloggers-space/>
 
 - On the `index.php` page all the created posts will be displayed. There is also a `Write a New Post` button on the bottom of the page from where you will be redirected to post creation page `index.html`.
 
